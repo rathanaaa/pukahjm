@@ -1,0 +1,274 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ph{
+    display: inline-block;
+}
+
+
+.porn{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.hub{
+    background-color: rgb(245, 119, 9);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: 0;
+    
+    
+    }
+
+.search-input{
+    height: 33px;
+    width: 355px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    background-color: rgb(65, 60, 60);
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    
+    
+}
+
+.hour-button{
+    background-color: #151515;
+    color:#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    border:  solid #212121;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 8px;
+    transition:300ms ease-in-out ;
+    
+}
+
+.hour-button:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+   
+}
+
+.tong-button{
+    background-color: #151515;
+    color:#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    border:  solid #212121;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-left: 0;
+    transition:300ms ease-in-out ;
+    
+}
+
+.tong-button:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+    
+}
+
+.nha-button{
+    background-color: #151515;
+    color:#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    border:  solid #212121;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 0;
+    transition:300ms ease-in-out ;
+    
+}
+
+.nha-button:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+    
+}
+
+.sal-button{
+    background-color: #151515;
+    color:#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    border:  solid #212121;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-left: 0;
+    transition:300ms ease-in-out ;
+    
+}
+
+.sal-button:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+    
+}
+
+.van-button{
+    background-color: #151515;
+    color:#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    border:  solid #212121;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition:300ms ease-in-out ;
+    
+}
+
+.van-button:hover{
+    opacity: 0.8;
+    background-color: #fff;
+    color: black;
+}
+
+.pic{
+    display: inline-block;
+}
+
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    width: 150px;
+    height: 130px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    display: block;
+    cursor: pointer;
+}
+
+.p1{
+    color: #969696;
+    margin-left: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.p2{
+    color: #969696;;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.p3{
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+    width: 155px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+.back-button {
+    background-color: rgb(65, 60, 60);
+    color: rgb(80, 79, 79);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    margin: 4px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5 {
+    background-color: rgb(65, 60, 60);
+    color: rgb(80, 79, 79);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1px;
+    cursor: pointer;
+}
+
+
+
+.next-button {
+    background-color: rgb(245, 119, 9);
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+
+}
+
+
+.a1{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+}
